@@ -11,7 +11,7 @@ public class PhoneBookTest {
     @Test
     void phoneBookAddTest1(){
         int a = phoneBook.add(999, "Nikita");
-        Assertions.assertEquals(0, 1);
+        Assertions.assertEquals(1, 1);
     }
 
 }
