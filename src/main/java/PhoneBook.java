@@ -1,8 +1,8 @@
 import java.util.HashMap;
 
 public class PhoneBook {
+    HashMap<Integer, String> phoneNumbers = new HashMap<>();
     public int add(Integer phoneNumber, String name){
-        HashMap<Integer, String> phoneNumbers = new HashMap<>();
         if (phoneNumbers.containsKey(name)) {
             return (-1);
         } else {
@@ -10,5 +10,8 @@ public class PhoneBook {
             System.out.println(phoneNumbers.size());
             return phoneNumbers.size();
         }
+    }
+    public String findByNumber(Integer phoneNumber) {
+        return null;
     }
 }
