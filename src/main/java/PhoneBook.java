@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PhoneBook {
+public class PhoneBook {
+    public int add(Integer phoneNumber, String name){
+        return 0;
+    }
 }
