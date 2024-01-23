@@ -12,6 +12,10 @@ public class PhoneBook {
         }
     }
     public String findByNumber(Integer phoneNumber) {
-        return null;
+        if (phoneNumbers.containsKey(phoneNumber)) {
+            return (phoneNumbers.get(phoneNumber));
+        } else {
+            return null;
+        }
     }
 }
